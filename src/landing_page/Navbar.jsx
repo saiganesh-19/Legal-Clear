@@ -14,7 +14,7 @@ function Navbar() {
             Scan Document
           </Link>
           <Link to="/about" className="hover:text-[#F4A261]">
-            Upload
+            About
           </Link>
         </div>
       </div>
