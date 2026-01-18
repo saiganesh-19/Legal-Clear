@@ -10,10 +10,10 @@ function Navbar() {
           <Link to="/" className="hover:text-[#F4A261]">
             Home
           </Link>
-          <Link to="/about" className="hover:text-[#F4A261]">
+          <Link to="/scan_document" className="hover:text-[#F4A261]">
             Scan Document
           </Link>
-          <Link to="/scan_document" className="hover:text-[#F4A261]">
+          <Link to="/about" className="hover:text-[#F4A261]">
             Upload
           </Link>
         </div>

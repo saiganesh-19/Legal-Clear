@@ -1,7 +1,12 @@
 import React from 'react';
+import Hero from './Hero';
+import Upload from './Upload';
 function ScanPage() {
     return ( 
-        <h1>Scan Page</h1>
+        <>
+         <Hero/>
+        <Upload/>
+        </>
      );
 }
 

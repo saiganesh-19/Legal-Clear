@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 function Hero() {
   return (
@@ -19,7 +20,7 @@ function Hero() {
         Simplifying complex legal language for everyone. Transform confusing
         contracts and agreements into clear, understandable text.
       </p>
-        <a  className="inline-flex items-center gap-2 px-8 py-4 bg-[#F4A261] hover:bg-[#F4A261]/90 text-[#0D1B2A] font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#F4A261]/50 mt-10" href="">Trey Document SCanner</a>
+        <Link to="/scan_document"  className="inline-flex items-center gap-2 px-8 py-4 bg-[#F4A261] hover:bg-[#F4A261]/90 text-[#0D1B2A] font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#F4A261]/50 mt-10" href="">Trey Document SCanner</Link>
     </div>
   )
 }
