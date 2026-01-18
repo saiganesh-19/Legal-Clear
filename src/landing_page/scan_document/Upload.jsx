@@ -2,8 +2,8 @@ import React from 'react';
 function Upload() {
     return ( 
         <div className="flex flex-row my-20 text-center ">
-            <div className=" max-w-7xl basis-1/2 flex flex-col items-center justify-center border-4 border-dashed border-white ml-25 mr-18 px-10 py-5">
-            <div className="text-5xl "><i class="fa-solid fa-upload"></i></div>
+            <div className=" max-w-7xl basis-1/2 flex flex-col items-center justify-center border-4 border-dashed border-white ml-25 mr-18 px-10 py-5 transition-transform hover:scale-105 hover:border-[#F4A261]">
+            <div className="text-5xl  "><i class="fa-solid fa-upload"></i></div>
             <h1 className='font-bold text-xl py-4'> Drag & drop your document</h1>
             <p>or click to browse (PFG or Image) </p>
             </div>

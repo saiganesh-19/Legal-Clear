@@ -45,7 +45,7 @@ function Vision() {
             </div>
           </div>
         </div>
-           <Link to="/scan_document"  className="inline-flex items-center gap-2 px-8 py-4 bg-[#F4A261] hover:bg-[#F4A261]/90 text-[#0D1B2A] font-semibold rounded-lg  my-10" href="">Get Starteed Now</Link>
+           <Link to="/scan_document"  className="inline-flex items-center gap-2 px-8 py-4 bg-[#F4A261]/20 hover:bg-[#F4A261]/50 text-white font-semibold rounded-lg  my-10" href="">Get Starteed Now</Link>
       </div>
     </div>
   );

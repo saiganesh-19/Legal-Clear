@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 
 function Hero() {
   return (
-         <div className="text-center text-xs bg-gradient-to-br from-[#0D1B2A] via-purple-1000/20 to-[#0D1B2A] text-white p-8  mx-auto px-4 sm:px-25 lg:px-50 pt-15 text-center align-center px-5 mt-8">
-      <div className="px-4 py-2 rounded-full bg-[#F4A261]/10 border border-[#F4A261]/30 w-64 text-center">
+         <div className="text-center text-xs bg-gradient-to-br from-[#0D1B2A] via-purple-1000/20 to-[#0D1B2A] text-white p-8  mx-auto px-4 sm:px-25 lg:px-50  text-center align-center px-5 mt-2">
+      <div className="mx-auto px-4 py-2 rounded-full bg-[#F4A261]/10 border border-[#F4A261]/30 w-64 text-center">
       <span className="text-base">
         Making Legal Document Clear
         </span>
